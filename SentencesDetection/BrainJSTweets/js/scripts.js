@@ -35,5 +35,5 @@ function execute(input) {
     return "I'm " + certainty + "% sure that tweet was written by " + output;
 }
 
-train(trainingData);
-console.log(execute("Paste your tweet here"));
+train(trainingData2);
+console.log(execute("Hello World to all my friends I love Jordan"));
