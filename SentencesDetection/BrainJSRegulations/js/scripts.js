@@ -32,7 +32,7 @@ function execute(input) {
         certainty = Math.floor(results.mandato * 100)
     }
 
-    return "I'm " + certainty + "% sure that tweet was written by " + output;
+    return "I'm " + certainty + "% sure that the sentence is a  " + output;
 }
 
 train(trainingData);
